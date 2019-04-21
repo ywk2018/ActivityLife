@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_start_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到第二个activity" />
+
+    <Button
+        android:id="@+id/btn_start_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到dialog" />
+
+    <EditText
+        android:id="@+id/edit_transmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="利用onSaveInstanceState保存数据"/>
+</LinearLayout>
